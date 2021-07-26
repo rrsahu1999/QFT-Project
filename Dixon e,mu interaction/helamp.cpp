@@ -240,4 +240,3 @@ int main() {
 	cout << "Total amplitude is : " << ans << endl;
 	return 0;
 }
-//no no
