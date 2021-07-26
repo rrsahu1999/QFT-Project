@@ -102,7 +102,7 @@ int main() {
 		//initialising the square of propagator four momenta
 		for (int j=0;j<4;j++)
 			spp.z = spp.z + diag_eta[j]*pp[j]*pp[j];
-		cout << spp.z << "\n";
+
 		//Calculating the helicity amplitude for this particular configuration
 		switch (mtr)
 		{

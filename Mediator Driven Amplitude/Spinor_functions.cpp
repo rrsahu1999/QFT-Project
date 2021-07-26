@@ -130,7 +130,7 @@ Y Spinor::Z_AMP(X IF[2],X OF[2],Y spp) {
 		}
 	}
 	spp.z = spp.z - mz*mz + I*gz*mz; 
-	cout << spp.z << "\n";
+
 	Y M1,M2;		//defining complex variable to store the matrix elements	
 	Y M;			//defining complex variable to store helicity amplitude
 
